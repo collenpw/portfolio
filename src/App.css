@@ -47,8 +47,53 @@
 
 .me-pic {
   display: block;
-  max-width: 10%;
-  min-width: 10%;
-  margin: auto;
+  max-width: 20%;
+  min-width: 20%;
+  margin: 10px auto;
   text-align: center;
+}
+
+.skill {
+  list-style: none;
+}
+
+.skill-list {
+  text-align: center;
+}
+
+.contact {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.contact-info {
+  margin: 0 auto;
+}
+
+.contact-div {
+  /* text-align: center; */
+  display: flex;
+}
+
+.button-holder {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  justify-content: space-between;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin-top: 4rem;
+}
+
+.card-text {
+  height: 50%;
 }

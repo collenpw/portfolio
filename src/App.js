@@ -11,13 +11,13 @@ import Skills from './components/Skills/Skills';
 function App() {
   return (
     <div className="App">
-      <Nav variant='pills' defaultActiveKey='/home'>
+      <Nav variant='tabs' defaultActiveKey='/home'>
         <Nav.Item>
           <Nav.Link href='/home'>About Me</Nav.Link>
         </Nav.Item>
 
         <Nav.Item>
-          <Nav.Link href='/skills'>Skills</Nav.Link>
+          <Nav.Link eventKey="link-1" href='/skills'>Skills</Nav.Link>
         </Nav.Item>
 
         <Nav.Item>
@@ -33,6 +33,7 @@ function App() {
         </Nav.Item>
       </Nav>
 
+      <Route path='/' exact component={AboutMe} />
       <Route path='/home' exact component={AboutMe} />
       <Route path='/skills' exact component={Skills} />
       <Route path='/resume' exact component={Resume} />
