@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,20 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.nav {
+  justify-content: center;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.me-pic {
+  display: block;
+  max-width: 10%;
+  min-width: 10%;
+  margin: auto;
+  text-align: center;
 }
