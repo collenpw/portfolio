@@ -1,18 +1,20 @@
+import { ListGroup } from "react-bootstrap";
+
 const Skills = () => {
     return (
         <div>
-           <ul className='skill-list'>
-               <li className="skill">HTML</li>
-               <li className="skill">CSS</li>
-               <li className="skill">JavaScript</li>
-               <li className="skill">React</li>
-               <li className="skill">Bootstrap</li>
-               <li className="skill">Express</li>
-               <li className="skill">Mongo</li>
-               <li className="skill">Mongoose</li>
-               <li className="skill">CRUD Functionality</li>
-               <li className="skill">RESTful programming</li>
-           </ul>
+           <ListGroup className='skills'>
+               <ListGroup.Item className="skill">HTML</ListGroup.Item>
+               <ListGroup.Item className="skill">CSS</ListGroup.Item>
+               <ListGroup.Item className="skill">JavaScript</ListGroup.Item>
+               <ListGroup.Item className="skill">React</ListGroup.Item>
+               <ListGroup.Item className="skill">Bootstrap</ListGroup.Item>
+               <ListGroup.Item className="skill">Express</ListGroup.Item>
+               <ListGroup.Item className="skill">Mongo</ListGroup.Item>
+               <ListGroup.Item className="skill">Mongoose</ListGroup.Item>
+               <ListGroup.Item className="skill">CRUD Functionality</ListGroup.Item>
+               <ListGroup.Item className="skill">RESTful programming</ListGroup.Item>
+           </ListGroup>
         </div>
     );
 };

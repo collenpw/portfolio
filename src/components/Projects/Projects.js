@@ -3,6 +3,8 @@ import  Button  from 'react-bootstrap/Button';
 
 import pokeGamePic from '../Projects/pokegame.png';
 import riotPic from '../Projects/riot-tracker.png';
+import pokedexPic from '../Projects/pokedex.png';
+import gitNomsPic from '../Projects/gitNoms.png';
 
 
 const Projects = () => {
@@ -11,7 +13,7 @@ const Projects = () => {
 
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={pokeGamePic} />
-            <Card.Body>
+            <Card.Body className='project-body'>
                 <Card.Title className='card-title'>Pokemon Battle Game (Vanilla JS)</Card.Title>
                 <Card.Text className='card-text'>
                     A turn based battle between my original team on Pokemon Platinum
@@ -27,7 +29,7 @@ const Projects = () => {
 
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={riotPic} />
-            <Card.Body>
+            <Card.Body className='project-body'>
                 <Card.Title className='card-title'>Teamfight Tactics Match History Search Tool</Card.Title>
                 <Card.Text className='card-text'>
                     An app to search for a players most recent 5 games of Teamfight Tactics
@@ -35,6 +37,36 @@ const Projects = () => {
                 <div className="button-holder">
                     <a target='_blank'href="https://festive-panini-4040b8.netlify.app/"><Button variant="secondary">Deployed site</Button></a>
                     <a target='_blank'href="https://github.com/collenpw/riot-tracker"><Button variant="secondary">Github</Button></a>
+                </div>
+
+                </Card.Body>
+        </Card>
+
+        <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src={gitNomsPic} />
+            <Card.Body className='project-body'>
+                <Card.Title className='card-title'>Open Source Recipe Book</Card.Title>
+                <Card.Text className='card-text'>
+                    An app that allows users to search, add, edit, and delete recipes.
+                </Card.Text>
+                <div className="button-holder">
+                    <a target='_blank'href="https://gitnoms.netlify.app/"><Button variant="secondary">Deployed site</Button></a>
+                    <a target='_blank'href="https://github.com/TheCodingChefs/gitNomsClient"><Button variant="secondary">Github</Button></a>
+                </div>
+
+                </Card.Body>
+        </Card>
+
+        <Card style={{ width: '18rem' }}>
+            <Card.Img  className='project-body' variant="top" src={pokedexPic} />
+            <Card.Body className='project-body'>
+                <Card.Title className='card-title'>Pokedex</Card.Title>
+                <Card.Text className='card-text'>
+                    A Pokedex with user auth to get detailed information about Pokemon in the Pokemon game series. Made with ReactJS and Bootstrap.
+                </Card.Text>
+                <div className="button-holder">
+                    <a target='_blank'href="https://okie-dokie-dex.netlify.app/"><Button variant="secondary">Deployed site</Button></a>
+                    <a target='_blank'href="https://github.com/collenpw/pokedex-client"><Button variant="secondary">Github</Button></a>
                 </div>
 
                 </Card.Body>
