@@ -28,24 +28,9 @@ const Projects = () => {
         </Card>
 
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={riotPic} />
-            <Card.Body className='project-body'>
-                <Card.Title className='card-title'>Teamfight Tactics Match History Search Tool</Card.Title>
-                <Card.Text className='card-text'>
-                    An app to search for a players most recent 5 games of Teamfight Tactics
-                </Card.Text>
-                <div className="button-holder">
-                    <a target='_blank'href="https://festive-panini-4040b8.netlify.app/"><Button variant="secondary">Deployed site</Button></a>
-                    <a target='_blank'href="https://github.com/collenpw/riot-tracker"><Button variant="secondary">Github</Button></a>
-                </div>
-
-                </Card.Body>
-        </Card>
-
-        <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={gitNomsPic} />
             <Card.Body className='project-body'>
-                <Card.Title className='card-title'>Open Source Recipe Book</Card.Title>
+                <Card.Title className='card-title'>gitNoms</Card.Title>
                 <Card.Text className='card-text'>
                     An app that allows users to search, add, edit, and delete recipes.
                 </Card.Text>

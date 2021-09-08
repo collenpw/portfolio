@@ -31,34 +31,6 @@ function App() {
       </Nav.Item>
     </Nav>
 
-
-
-
-
-
-
-      {/* <Nav variant='pills' defaultActiveKey='/home'>
-        <Nav.Item>
-          <Nav.Link href='/home'>About Me</Nav.Link>
-        </Nav.Item>
-
-        <Nav.Item>
-          <Nav.Link eventKey='/skills' href='/skills'>Skills</Nav.Link>
-        </Nav.Item>
-
-        <Nav.Item>
-          <Nav.Link href='/resume'>Resume</Nav.Link>
-        </Nav.Item>
-
-        <Nav.Item>
-          <Nav.Link href='/projects'>Project Showcase</Nav.Link>
-        </Nav.Item>
-
-        <Nav.Item>
-          <Nav.Link href='/contact'>Contact Me</Nav.Link>
-        </Nav.Item>
-      </Nav> */}
-
       <Route path='/' exact component={AboutMe} />
       <Route path='/home' exact component={AboutMe} />
       <Route path='/skills' exact component={Skills} />
