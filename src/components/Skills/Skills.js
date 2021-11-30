@@ -7,6 +7,7 @@ const Skills = () => {
                <ListGroup.Item className="skill">HTML</ListGroup.Item>
                <ListGroup.Item className="skill">CSS</ListGroup.Item>
                <ListGroup.Item className="skill">JavaScript</ListGroup.Item>
+               <ListGroup.Item className="skill">PL/SQL</ListGroup.Item>
                <ListGroup.Item className="skill">React</ListGroup.Item>
                <ListGroup.Item className="skill">Bootstrap</ListGroup.Item>
                <ListGroup.Item className="skill">Express</ListGroup.Item>
